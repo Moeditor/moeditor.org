@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    background: #fbfbfb;
+}
+
+body {
+    display: table;
+}
+
+#main {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#logo img {
+    width: 220px;
+}
+
+#logo div {
+    font-family: Raleway;
+    font-size: 50px;
+    text-align: center;
+    color: #666;
+    letter-spacing: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#description {
+    color: #666;
+    font-family: monospace;
+    margin-top: 25px;
+    letter-spacing: 0.5px;
+}
+
+#download {
+    margin-top: 40px;
+}
+
+#download a.button {
+    background-color: #eee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin: 10px;
+    display: inline-block;
+    font-family: Ubuntu;
+    color: #fafafa;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+
+#download a.button div {
+    pointer-events: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#download a.button:hover div {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+#download a.button:active div {
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: none;
+}
+
+#info {
+    margin-top: 10px;
+    font-family: "Noto Serif", serif;
+    font-style: italic;
+    color: #aaa;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+#links {
+    margin-top: 30px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    zoom: 2;
+    margin-left: 3px;
+    margin-right: 3px;
+}
